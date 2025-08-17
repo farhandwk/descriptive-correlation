@@ -136,6 +136,19 @@ function App() {
           </div>
         )}
       </div>
+      <footer className="documentation-footer">
+        <p>
+          Penasaran bagaimana aplikasi ini bekerja?{' '}
+          <a 
+            href="https://drive.google.com/drive/folders/1st5ZWOObTkeJdMtjWoYVeBh7CA0LN0J0?usp=sharing" // <-- GANTI URL INI
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="docs-link"
+          >
+            Lihat dokumentasi proyek di sini
+          </a>.
+        </p>
+      </footer>
     </div>
   )
 }

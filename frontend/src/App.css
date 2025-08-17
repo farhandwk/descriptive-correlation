@@ -13,6 +13,7 @@ body {
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -25,7 +26,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  width: 100%;
+  width: 80%;
   max-width: none;
   margin: 10%;
   margin-top: 0%;
@@ -156,4 +157,25 @@ button:disabled {
 
 .legend-list {
   text-align: start;
+}
+
+/* === STYLING BARU UNTUK FOOTER DOKUMENTASI === */
+.documentation-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.docs-link {
+  color: #007bff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.docs-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
 }
