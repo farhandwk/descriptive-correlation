@@ -35,7 +35,7 @@ function App() {
     formData.append('file', selectedFile)
 
     try {
-      const apiUrl = `${import.meta.env.VITE_API_URL}/api/upload`;
+      const apiUrl = `${import.meta.env.VITE_API_URL || ''}/api/upload`;
       const response = await fetch(apiUrl, {
         method: 'POST',
         body: formData,
