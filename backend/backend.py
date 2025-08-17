@@ -154,4 +154,4 @@ def get_test():
     return jsonify({" message: Test Get Berdhasil "})
 # Jalankan server saat skrip dieksekusi
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5003)
